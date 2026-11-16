@@ -1,0 +1,85 @@
+html, body, [data-testid="stAppViewContainer"] {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.stApp {
+    background-color: #000000;
+}
+
+.main .block-container {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+label,
+div[data-testid="stNumberInput"] label,
+div[data-testid="stTextInput"] label,
+div[data-testid="stMetricLabel"],
+.stMarkdown p,
+.stMarkdown h3,
+.stMarkdown h2 {
+    color: #ffffff !important;
+}
+
+.stNumberInput input,
+.stTextInput input,
+div[data-testid="stNumberInput"] input {
+    background-color: #f2f2f2 !important;
+    color: #000000 !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 10px;
+}
+
+.stButton > button {
+    background-color: #ff4d4d !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    padding: 0.8rem 1.5rem !important;
+    width: auto !important;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+}
+
+div[data-testid="stFileUploader"] {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    padding: 0.6rem;
+}
+
+div[data-testid="stFileUploader"] > section {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+div[data-testid="stFileUploader"] label,
+div[data-testid="stFileUploader"] p,
+div[data-testid="stFileUploader"] span {
+    color: #ffffff !important;
+}
+
+div[data-testid="stFileUploader"] button {
+    background-color: #e6e6e6 !important;
+    color: #000000 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
